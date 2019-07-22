@@ -1,0 +1,32 @@
+.file-content {
+    border: 1px solid black;
+}
+
+.file-content ul {
+    overflow: auto;
+    list-style-type: none;
+}
+
+.file-content li {
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 0px;
+    border-right: 1px solid #aaa;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #ccc;
+    font: 25px/1 Helvetica, Verdana, sans-serif;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.file-content li:hover {
+    color: #666;
+}
+
+.file-content li.active {
+    font-weight: bold;
+    color: #333;
+}
